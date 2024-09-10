@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depoimentos - Comunidade de Apoio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #2c3e50;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        h2 {
+            color: #34495e;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .placeholder-text {
+            color: #7f8c8d;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .btn-add-depoimento {
+            background-color: #2980b9;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-add-depoimento:hover {
+            background-color: #3498db;
+        }
+        .depoimento-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .depoimento-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Comunidade de Apoio à Recuperação</h1>
+    <p>Juntos na Jornada da Recuperação</p>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre Nós</a>
+    <a href="contato.html">Contato</a>
+    <a href="depoimentos.html">Depoimentos</a>
+</nav>
+
+<section>
+    <h2>Depoimentos</h2>
+    <p class="placeholder-text">Nenhum depoimento disponível no momento. Em breve, você poderá ler histórias inspiradoras de pessoas que estão vencendo seus desafios.</p>
+    <a href="contato.html" class="btn-add-depoimento">Envie seu Depoimento</a>
+    
+    <div class="depoimento-card" style="display: none;">
+        <p><strong>Nome do Usuário</strong></p>
+        <p>"Este é um exemplo de depoimento que será exibido aqui no futuro."</p>
+    </div>
+</section>
+
+<footer>
+    <p>Comunidade de Apoio © 2024 - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
